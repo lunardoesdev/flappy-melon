@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://mqyi5x6dy71q"]
+
+[node name="PipePair" type="Node2D" unique_id=1378070081]
+
+[node name="upperPipe" type="Sprite2D" parent="." unique_id=1955940565]
+
+[node name="lowerPipe" type="Sprite2D" parent="." unique_id=83709861]
