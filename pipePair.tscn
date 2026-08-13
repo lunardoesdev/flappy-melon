@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://mqyi5x6dy71q"]
 
+[ext_resource type="Script" uid="uid://wakg0u8s740q" path="res://pipe_pair.gd" id="1_ado15"]
+
 [node name="PipePair" type="Node2D" unique_id=1378070081]
+script = ExtResource("1_ado15")
 
 [node name="upperPipe" type="Sprite2D" parent="." unique_id=1955940565]
 
