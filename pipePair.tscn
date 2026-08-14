@@ -4,7 +4,10 @@
 
 [node name="PipePair" type="Node2D" unique_id=1378070081]
 script = ExtResource("1_ado15")
+gap_offset = null
 
 [node name="upperPipe" type="Sprite2D" parent="." unique_id=1955940565]
+position = Vector2(0, -142.5)
 
 [node name="lowerPipe" type="Sprite2D" parent="." unique_id=83709861]
+position = Vector2(0, 142.5)
