@@ -5,6 +5,7 @@
 [node name="PipePair" type="Node2D" unique_id=1378070081]
 script = ExtResource("1_ado15")
 gap_offset = null
+fallback_pipe_height = 128.0
 
 [node name="upperPipe" type="Sprite2D" parent="." unique_id=1955940565]
 position = Vector2(0, -142.5)

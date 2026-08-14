@@ -4,8 +4,15 @@
 
 [node name="MainScene" type="Node2D" unique_id=159262608]
 
+[node name="melon" type="Sprite2D" parent="." unique_id=1620431272]
+
 [node name="PipePair" parent="." unique_id=1378070081 instance=ExtResource("1_ig7tw")]
-position = Vector2(0, 314)
 gap_offset = 0.0
 
-[node name="melon" type="Sprite2D" parent="." unique_id=1620431272]
+[node name="upperPipe" parent="PipePair" index="0" unique_id=1955940565]
+position = Vector2(0, -235.5)
+
+[node name="lowerPipe" parent="PipePair" index="1" unique_id=83709861]
+position = Vector2(0, 235.5)
+
+[editable path="PipePair"]
